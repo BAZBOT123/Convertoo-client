@@ -1,0 +1,43 @@
+.form-control-dark {
+  border-color: var(--bs-gray);
+}
+.form-control-dark:focus {
+  border-color: #fff;
+  box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
+}
+
+.text-small {
+  font-size: 85%;
+}
+
+.dropdown-toggle:not(:focus) {
+  outline: 0;
+}
+
+.zeromargin {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
+div.container {
+  max-width: 100%;
+}
+
+.nav {
+  gap: 2em;
+}
+
+.zeropadding {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.navigation-position {
+  position: relative;
+  left: 30px;
+}
+
+.signUp-login-btn {
+  position: relative;
+  left: 1165px;
+}
