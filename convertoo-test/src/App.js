@@ -2,6 +2,7 @@ import './App.css';
 import Header from './components/header/Header'
 import Heroes from './components/heroes/Heroes'
 import Features from './components/features/Features'
+import Pricing from './components/pricing/Pricing'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
           <Header></Header>
           <Heroes></Heroes>
           <Features></Features>
+          <Pricing></Pricing>
         </nav>
 
         </header>
