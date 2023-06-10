@@ -9,17 +9,15 @@ function App() {
     <div className="App">
       <body>
         <header className="App-header">
-        <nav className="navbar">
-          <Header></Header>
-          <Heroes></Heroes>
-          <Features></Features>
-          <Pricing></Pricing>
-        </nav>
+          <nav className="navbar">
+            <Header></Header>
+          </nav>
 
         </header>
         <main>
-          <h1>Hello World!</h1>
-          <h2>Welcome to Convertoo Cloud.</h2>
+          <Heroes></Heroes>
+          <Features></Features>
+          <Pricing></Pricing>
         </main>
       </body>
     </div>
